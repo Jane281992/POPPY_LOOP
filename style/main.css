@@ -724,6 +724,7 @@ p.copyrights {
   opacity: 0;
   visibility: hidden;
   z-index: 3;
+  display: none;
 }
 
 .btn-up.visible {
@@ -1219,6 +1220,10 @@ p.copyrights {
   address,
   .socials p {
     margin: auto;
+  }
+
+  .btn-up {
+    display: block;
   }
 }
 
