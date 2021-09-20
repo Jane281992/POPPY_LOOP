@@ -191,7 +191,7 @@ main {
   overflow: hidden;
 }
 
-/* Секція "Ми робимо"*/
+/* Section "Ми робимо"*/
 #we-do {
   overflow: hidden;
 }
@@ -247,7 +247,7 @@ main {
   height: 10px;
 }
 
-/* Секція "Наші цінності"*/
+/* Section "Наші цінності"*/
 #about {
   padding-top: 78px;
 }
@@ -328,7 +328,7 @@ main {
   max-width: 100%;
 }
 
-/* Секція "Як це працює"*/
+/* Section "Як це працює"*/
 #how-works {
   padding-top: 70px;
 }
@@ -384,7 +384,7 @@ main {
   margin: 60px auto 0;
 }
 
-/* Секція "Галерея робіт"*/
+/* Section "Галерея робіт"*/
 #gallery {
   padding-top: 100px;
 }
@@ -489,7 +489,7 @@ li a.active::after {
   left: 2px;
 }
 
-/* Секція "Про нас пишуть"*/
+/* Section "Про нас пишуть"*/
 #testimonials {
   padding-top: 100px;
 }
@@ -571,7 +571,7 @@ li a.active::after {
   margin-top: 8px;
 }
 
-/* Секція "Форма зворотного зв'язку"*/
+/* Section "Форма зворотного зв'язку"*/
 #order-form {
   padding-top: 129px;
   padding-bottom: 97px;
@@ -840,7 +840,7 @@ p.copyrights {
     margin: 50px 0 150px;
   }
 
-  /* Секція "Ми робимо"*/
+  /* Section "Ми робимо"*/
   #we-do::before {
     width: 345px;
     height: 345px;
@@ -883,7 +883,7 @@ p.copyrights {
     font-size: 1.125em;
   }
 
-  /* Секція "Наші цінності"*/
+  /* Section "Наші цінності"*/
   #about {
     padding-top: 138px;
   }
@@ -904,7 +904,7 @@ p.copyrights {
     margin-bottom: 90px;
   }
 
-  /* Секція "Як це працює"*/
+  /* Section "Як це працює"*/
   #how-works {
     padding-top: 200px;
     display: flex;
@@ -944,7 +944,7 @@ p.copyrights {
     padding: 0 24px;
   }
 
-  /* Секція "Галерея робіт"*/
+  /* Section "Галерея робіт"*/
   #gallery {
     padding-top: 200px;
   }
@@ -953,7 +953,7 @@ p.copyrights {
     margin: 80px auto;
   }
 
-  /* Секція "Про нас пишуть"*/
+  /* Section "Про нас пишуть"*/
   #testimonials {
     padding-top: 200px;
     display: flex;
@@ -998,7 +998,7 @@ p.copyrights {
     font-size: 1.125em;
   }
 
-  /* Секція "Форма зворотного зв'язку"*/
+  /* Section "Форма зворотного зв'язку"*/
   #order-form {
     padding-top: 100px;
     padding-bottom: 100px;
