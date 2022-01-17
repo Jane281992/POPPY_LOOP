@@ -419,10 +419,6 @@ main {
   font-weight: 400;
 }
 
-.gallery-nav a:hover {
-  font-weight: 700;
-}
-
 .gallery-nav a.active {
   font-weight: 700;
 }
@@ -811,12 +807,18 @@ p.copyrights {
 
   .tell {
     padding-left: 37px;
+    transition: 0.3s;
   }
 
   .tell::before {
     top: -4px;
     height: 32px;
     width: 32px;
+  }
+
+  .tell:hover,
+  .social-icons a:hover {
+    transform: scale(1.1);
   }
 
   .circle-burger img {
@@ -1042,6 +1044,10 @@ p.copyrights {
     width: 200px;
   }
 
+  .social-icons a {
+    transition: 0.3s;
+  }
+
   .social-icons img {
     height: 40px;
     width: 40px;
@@ -1065,10 +1071,6 @@ p.copyrights {
 
   .nav-wrapper a {
     font-size: 1em;
-  }
-
-  .nav-wrapper a:hover {
-    font-weight: 700;
   }
 
   .nav-wrapper nav {
