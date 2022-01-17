@@ -164,7 +164,7 @@ li a:hover::after {
   content: "";
   position: absolute;
   left: 0%;
-  top: 90%;
+  top: 120%;
   background-color: var(--accent-color);
   height: 2px;
   width: 100%;
@@ -218,6 +218,14 @@ main {
   padding: 5px 20px;
   margin: 16px 0;
   position: relative;
+}
+
+.card img {
+  transition: 0.5s;
+}
+
+#we-do .card:hover img {
+  transform: scale(1.1);
 }
 
 .card a {
@@ -374,6 +382,11 @@ main {
 .steps img {
   height: 136px;
   width: 136px;
+  transition: 0.3s;
+}
+
+.steps:hover img {
+  transform: scale(1.2);
 }
 
 .steps p {
