@@ -28,23 +28,28 @@ h3 {
   width: 100%;
 }
 
+h1 {
+  font-size: 2.625rem;
+}
+
 h2::after,
 h3::after {
   content: "";
   position: absolute;
-  left: 40%;
-  top: 120%;
+  left: 50%;
+  top: 130%;
   background-color: var(--accent-color);
-  height: 2px;
-  width: 20%;
+  height: 0.125rem;
+  width: 7rem;
+  transform: translateX(-50%);
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 2.25rem;
 }
 
 h3 {
-  font-size: 1.75em;
+  font-size: 1.75rem;
 }
 
 ul li {
@@ -53,22 +58,21 @@ ul li {
 
 a {
   color: var(--secondary-color);
-  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 a.btn {
   background: var(--accent-color);
-  border-radius: 30px;
-  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1.875rem;
+  box-shadow: 0.25rem 0.3125rem 0.25rem rgba(0, 0, 0, 0.25);
   color: var(--primary-color);
-  height: 60px;
+  height: 3.75rem;
   display: block;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 1.25rem 0;
   text-align: center;
-  width: 220px;
+  width: 13.75rem;
 }
 
 section {
@@ -76,9 +80,9 @@ section {
 }
 
 .wrapper {
-  max-width: 1400px;
+  max-width: 87.5rem;
   margin: 0 auto;
-  padding: 0 1em;
+  padding: 0 1rem;
 }
 
 /* Hero */
@@ -93,7 +97,7 @@ section {
   position: fixed;
   z-index: 4;
   width: 100%;
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 .navbar.scrolled {
@@ -108,27 +112,27 @@ section {
 }
 
 .logo {
-  width: 73px;
+  width: 4.5625rem;
 }
 
 .tell {
-  padding-left: 24px;
+  padding-left: 1.5rem;
   position: relative;
 }
 
 .tell::before {
   content: "";
   position: absolute;
-  top: -2px;
-  left: 0px;
+  top: -0.125rem;
+  left: 0;
   background: url("../img/bg-logo/phone.svg") no-repeat center/cover;
-  height: 23px;
-  width: 23px;
+  height: 1.4375rem;
+  width: 1.4375rem;
 }
 
 .circle-burger img {
   transition: 0.5s;
-  width: 51px;
+  width: 3.1875rem;
 }
 
 .circle-burger img:hover {
@@ -138,7 +142,7 @@ section {
 .burger-navbar {
   background-color: rgba(255, 250, 250, 0.95);
   height: calc(100vh);
-  padding-top: 90px;
+  padding-top: 5.625rem;
   transform: translateY(-100vh);
   transition: 0.3s;
   width: 100%;
@@ -163,27 +167,23 @@ li a {
 li a:hover::after {
   content: "";
   position: absolute;
-  left: 0%;
+  left: 0;
   top: 120%;
   background-color: var(--accent-color);
-  height: 2px;
+  height: 0.125rem;
   width: 100%;
 }
 
 .content {
   height: 100vh;
-  padding-top: 90px;
+  padding-top: 5.625rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.content h1 {
-  font-size: 2.625em;
-}
-
 .content p {
-  font-size: 1.125em;
+  font-size: 1.125rem;
   text-align: center;
 }
 
@@ -199,24 +199,24 @@ main {
 #we-do::before {
   content: "";
   background: url("../img/bg-logo/bg-accent.svg") no-repeat;
-  width: 244px;
-  height: 244px;
+  width: 15.25rem;
+  height: 15.25rem;
   opacity: 0.2;
   position: absolute;
-  top: -109px;
-  left: -153px;
+  top: -6.8125rem;
+  left: -9.5625rem;
   transform: rotate(9deg);
 }
 
 #we-do h2 {
-  margin: 45px 0 32px;
+  margin: 2.8125rem 0 2rem;
 }
 
 .card {
   background: var(--primary-color);
-  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.12);
-  padding: 5px 20px;
-  margin: 16px 0;
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.12);
+  padding: 0.3125rem 1.25rem;
+  margin: 1rem 0;
   position: relative;
 }
 
@@ -225,7 +225,7 @@ main {
 }
 
 #we-do .card:hover img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .card a {
@@ -236,8 +236,8 @@ main {
 }
 
 #we-do img {
-  height: 100px;
-  width: 100px;
+  height: 6.25rem;
+  width: 6.25rem;
   border-radius: 50%;
 }
 
@@ -249,31 +249,31 @@ main {
 }
 
 .card .circle {
-  border: 2px solid #d81414;
+  border: 0.125rem solid #d81414;
   border-radius: 50%;
-  width: 10px;
-  height: 10px;
+  width: 0.625rem;
+  height: 0.625rem;
 }
 
 /* Section "Наші цінності"*/
 #about {
-  padding-top: 78px;
+  padding-top: 4.875rem;
 }
 
 #about::before {
   content: "";
   background: url("../img/bg-logo/bg-accent.svg") no-repeat;
-  width: 263px;
-  height: 263px;
+  width: 16.4375rem;
+  height: 16.4375rem;
   opacity: 0.2;
   position: absolute;
-  top: -15px;
-  right: -150px;
+  top: -0.9375rem;
+  right: -9.375rem;
   transform: rotate(107deg);
 }
 
 #about h2 {
-  padding-top: 45px;
+  padding-top: 2.8125rem;
 }
 
 #about h2::after {
@@ -281,11 +281,11 @@ main {
 }
 
 #about article {
-  margin: 45px auto 60px;
+  margin: 2.8125rem auto 3.75rem;
 }
 
 #about p {
-  margin: 16px 0;
+  margin: 1rem 0;
   padding-left: 1em;
   position: relative;
 }
@@ -296,17 +296,17 @@ main {
   left: 0;
   top: 0;
   background-color: var(--accent-color);
-  height: 50px;
-  width: 2px;
+  height: 3.125rem;
+  width: 0.125rem;
 }
 
 #about .btn {
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
 }
 
 #about .img {
   position: relative;
-  width: 360px;
+  width: 22.5rem;
   margin: 0 auto;
   height: fit-content;
 }
@@ -319,16 +319,16 @@ main {
   width: 22%;
   height: 100%;
   background: rgba(255, 250, 250, 0.7);
-  border-bottom-right-radius: 40px;
+  border-bottom-right-radius: 2.5rem;
 }
 
 #about .img::after {
   content: "";
   background: url("../img/bg-logo/logo.svg");
-  height: 65px;
-  width: 68px;
+  height: 4.0625rem;
+  width: 4.25rem;
   position: absolute;
-  left: 1px;
+  left: 0.0625rem;
   bottom: 2%;
 }
 
@@ -338,41 +338,41 @@ main {
 
 /* Section "Як це працює"*/
 #how-works {
-  padding-top: 70px;
+  padding-top: 4.375rem;
 }
 
 #how-works::before {
   content: "";
   background: url("../img/bg-logo/bg-accent.svg") no-repeat;
-  width: 240px;
-  height: 240px;
+  width: 15rem;
+  height: 15rem;
   opacity: 0.2;
   position: absolute;
-  top: 300px;
-  left: -148px;
+  top: 18.75rem;
+  left: -9.25rem;
   transform: rotate(10deg);
 }
 
 #how-works::after {
   content: "";
   background: url("../img/bg-logo/bg-accent.svg") no-repeat;
-  width: 240px;
-  height: 240px;
+  width: 15rem;
+  height: 15rem;
   opacity: 0.2;
   position: absolute;
-  bottom: 165px;
-  right: -148px;
+  bottom: 10/3125rem;
+  right: -9.25rem;
   transform: rotate(-141deg);
 }
 
 #how-works h2 {
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
 }
 
 .steps {
-  height: 182px;
-  width: 260px;
-  margin: 40px auto;
+  height: 11.375rem;
+  width: 16.25rem;
+  margin: 2.5rem auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -380,8 +380,8 @@ main {
 }
 
 .steps img {
-  height: 136px;
-  width: 136px;
+  height: 8.5rem;
+  width: 8.5rem;
   transition: 0.3s;
 }
 
@@ -394,18 +394,18 @@ main {
 }
 
 #how-works .btn {
-  margin: 60px auto 0;
+  margin: 3.75rem auto 0;
 }
 
 /* Section "Галерея робіт"*/
 #gallery {
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 #gallery .wrapper {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-row-gap: 24px;
+  grid-row-gap: 1.5rem;
 }
 
 .gallery-nav li:first-child {
@@ -424,12 +424,11 @@ main {
 }
 
 .gallery-nav {
-  margin: 48px auto 24px;
+  margin: 3rem auto 1.5rem;
 }
 
 .gallery-nav a {
   font-size: 0.75em;
-  font-weight: 400;
 }
 
 .gallery-nav a.active {
@@ -439,10 +438,10 @@ main {
 li a.active::after {
   content: "";
   position: absolute;
-  left: 0%;
-  top: 90%;
+  left: 0;
+  top: 120%;
   background-color: var(--accent-color);
-  height: 2px;
+  height: 0.125rem;
   width: 100%;
 }
 
@@ -461,7 +460,7 @@ li a.active::after {
 
 .glide__arrow {
   position: absolute;
-  width: 34px;
+  width: 2.125rem;
   height: 100%;
   top: 0;
   border: none;
@@ -475,13 +474,11 @@ li a.active::after {
 .glide__arrow.glide__arrow--left::before {
   content: "";
   background: url("../img/bg-logo/left-arrow.svg") no-repeat center / contain;
-  background-position: center;
-  background-size: contain;
-  height: 63px;
-  width: 34px;
+  height: 3.9375rem;
+  width: 2.125rem;
   position: absolute;
-  top: calc(50% - 31px);
-  left: -2px;
+  top: calc(50% -1.9375rem);
+  left: -0.125rem;
 }
 
 .glide__arrow.glide__arrow--right {
@@ -491,31 +488,31 @@ li a.active::after {
 .glide__arrow.glide__arrow--right::before {
   content: "";
   background: url("../img/bg-logo/right-arrow.svg") no-repeat center / contain;
-  height: 63px;
-  width: 34px;
+  height: 3.9375rem;
+  width: 2.125rem;
   position: absolute;
-  top: calc(50% - 31px);
-  left: 2px;
+  top: calc(50% -1.9375rem);
+  left: 0.125rem;
 }
 
 /* Section "Про нас пишуть"*/
 #testimonials {
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 #testimonials::after {
   content: "";
   background: url("../img/bg-logo/bg-accent.svg") no-repeat;
-  width: 250px;
-  height: 250px;
+  width: 15.625rem;
+  height: 15.625rem;
   opacity: 0.2;
   position: absolute;
-  bottom: -225px;
-  left: -159px;
+  bottom: -14.0625rem;
+  left: -9.9375rem;
   transform: rotate(73deg);
 }
 
 #testimonials h2 {
-  margin-bottom: 57px;
+  margin-bottom: 3.5625rem;
 }
 
 #testimonials .card {
@@ -524,52 +521,52 @@ li a.active::after {
   align-items: center;
   position: relative;
   flex-wrap: wrap;
-  padding: 16px;
-  margin: 32px auto;
+  padding: 1rem;
+  margin: 2rem auto;
   z-index: 1;
 }
 
 #testimonials .card::before {
   content: "";
   background: url("../img/bg-logo/heart.svg") no-repeat;
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   position: absolute;
 }
 
 #testimonials .card.card-one::before {
-  top: 6px;
-  left: 90px;
+  top: 0.375rem;
+  left: 5.625rem;
   transform: scaleX(-1);
 }
 
 #testimonials .card.card-two::before {
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
 }
 
 #testimonials .card.card-three::before {
-  top: 8px;
-  right: 0px;
+  top: 0.5rem;
+  right: 0;
 }
 
 .card div {
-  height: 108px;
-  width: 108px;
-  border: 2px solid var(--accent-color);
+  height: 6.75rem;
+  width: 6.75rem;
+  border: 0.125rem solid var(--accent-color);
   border-radius: 50%;
-  padding: 3px;
+  padding: 0.1875rem;
 }
 
 #testimonials img {
-  height: 98px;
-  width: 98px;
+  height: 6.125rem;
+  width: 6.125rem;
   border-radius: 50%;
 }
 
 .card p {
-  width: calc(100% - 116px);
-  font-size: 0.75em;
+  width: calc(100% - 7.25rem);
+  font-size: 0.75rem;
 }
 
 .card .author {
@@ -577,32 +574,32 @@ li a.active::after {
   font-style: italic;
   width: 100%;
   text-align: right;
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 
 /* Section "Форма зворотного зв'язку"*/
 #order-form {
-  padding-top: 129px;
-  padding-bottom: 97px;
+  padding-top: 8.0625rem;
+  padding-bottom: 6.0625rem;
   overflow: hidden;
 }
 
 #order-form::after {
   content: "";
   background: url("../img/bg-logo/bg-accent.svg") no-repeat;
-  width: 223px;
-  height: 223px;
+  width: 13.9375rem;
+  height: 13.9375rem;
   opacity: 0.2;
   position: absolute;
-  top: 778px;
-  left: 265px;
+  top: 48.625rem;
+  left: 16.5625rem;
   transform: rotate(5deg);
 }
 
 #order-form p {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  margin: 45px 0 32px;
+  margin: 2.8125rem 0 2rem;
 }
 
 #order-form img {
@@ -612,10 +609,10 @@ li a.active::after {
 
 #feedback-form {
   background: var(--primary-color);
-  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.12);
-  height: 490px;
-  padding: 32px 0 42px;
-  max-width: 500px;
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.12);
+  height: 30.625rem;
+  padding: 2rem 0 2.625rem;
+  max-width: 31.25rem;
   margin: 0 auto;
 }
 
@@ -624,17 +621,17 @@ textarea {
   display: block;
   outline: none;
   background: var(--primary-color);
-  border: 1px solid var(--secondary-color);
-  border-radius: 16px;
-  margin: 0 auto 32px;
+  border: 0.0625rem solid var(--secondary-color);
+  border-radius: 1rem;
+  margin: 0 auto 2rem;
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
-  width: 280px;
-  padding: 15px 24px;
+  width: 17.5rem;
+  padding: 0.9375rem 1.5rem;
 }
 
 input:required {
-  height: 50px;
+  height: 3.125rem;
 }
 
 input::placeholder,
@@ -644,20 +641,21 @@ textarea::placeholder {
 
 textarea {
   resize: none;
-  height: 150px;
+  height: 9.375rem;
 }
 
 input[type="submit"] {
   font-weight: 700;
   text-transform: uppercase;
   background: var(--accent-color);
-  border-radius: 30px;
-  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1.875rem;
+  box-shadow: 0.25rem 0.3125rem 0.25rem rgba(0, 0, 0, 0.25);
   color: var(--primary-color);
-  height: 60px;
-  width: 220px;
+  height: 3.75rem;
+  width: 13.75rem;
   border: none;
-  margin: 42px auto 0;
+  margin: 2.625rem auto 0;
+  cursor: pointer;
 }
 
 /* Footer */
@@ -677,14 +675,14 @@ input[type="submit"] {
 
 .phones {
   align-items: center;
-  padding: 16px 0;
+  padding: 1rem 0;
 }
 
 address {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 62px;
+  justify-content: space-evenly;
+  height: 3.875rem;
 }
 
 #footer .tell {
@@ -698,32 +696,32 @@ address {
 }
 
 .social-icons {
-  width: 128px;
+  width: 8rem;
 }
 
 .social-icons img {
-  height: 32px;
-  width: 32px;
+  height: 2rem;
+  width: 2rem;
 }
 
 p.copyrights {
-  font-size: 0.5em;
+  font-size: 0.5rem;
   text-align: center;
-  padding: 8px;
-  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12);
-  margin-top: 16px;
+  padding: 0.5rem;
+  box-shadow: 0 0.25rem 1.5rem rgba(0, 0, 0, 0.12);
+  margin-top: 1rem;
 }
 
 /* Button up */
 .btn-up {
-  width: 60px;
-  height: 60px;
+  width: 3.75rem;
+  height: 3.75rem;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 1.25rem;
+  right: 1.25rem;
   border-radius: 50%;
-  padding: 10px;
-  border: 2px solid var(--primary-color);
+  padding: 0.625rem;
+  border: 0.125rem solid var(--primary-color);
   transform: rotate(-90deg);
   transition: 0.3s;
   background: var(--accent-color) url("../img/bg-logo/right-arrow.svg") center /
@@ -745,21 +743,21 @@ p.copyrights {
 
 @media screen and (min-width: 542px) {
   #about p::before {
-    height: 30px;
+    height: 1.875rem;
   }
 
   #about .img {
-    width: 500px;
+    width: 31.25rem;
   }
 
   #about .img::before {
-    border-bottom-right-radius: 52px;
+    border-bottom-right-radius: 3.25rem;
   }
 
   #about .img::after {
-    height: 71px;
-    width: 75px;
-    left: 16px;
+    height: 4.4375rem;
+    width: 4.6875rem;
+    left: 1rem;
   }
 
   #gallery .wrapper {
@@ -768,65 +766,59 @@ p.copyrights {
   }
 
   #feedback-form {
-    padding: 32px 62px 42px;
+    padding: 2rem 3.875rem 2.625rem;
   }
 
   input,
   textarea {
-    border-radius: 23px;
     width: 100%;
-    padding: 13px 24px;
+    padding: 0.8125rem 1.5rem;
   }
 }
 
 @media screen and (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+
   h2 {
-    font-size: 4em;
+    font-size: 3rem;
   }
 
   h3 {
-    font-size: 3em;
-  }
-
-  p {
-    font-size: 1.25em;
-  }
-
-  a {
-    font-size: 1.25em;
-    font-weight: 400;
+    font-size: 2.5rem;
   }
 
   a.btn {
-    border-radius: 34px;
-    height: 68px;
-    font-size: 1.25em;
-    padding: 22px 0;
-    width: 280px;
+    border-radius: 2.125rem;
+    height: 4.25rem;
+    font-size: 1.25rem;
+    padding: 1.375rem 0;
+    width: 17.5rem;
     font-weight: 700;
   }
 
   .wrapper {
-    padding: 0 40px;
+    padding: 0 2.5rem;
   }
 
   .navbar {
-    padding-top: 40px;
+    padding-top: 2.5rem;
   }
 
   .logo {
-    width: 128px;
+    width: 8rem;
   }
 
   .tell {
-    padding-left: 37px;
+    padding-left: 2.3125rem;
     transition: 0.3s;
   }
 
   .tell::before {
-    top: -4px;
-    height: 32px;
-    width: 32px;
+    top: -0.25rem;
+    height: 2rem;
+    width: 2rem;
   }
 
   .tell:hover,
@@ -835,37 +827,32 @@ p.copyrights {
   }
 
   .circle-burger img {
-    width: 71px;
+    width: 4.4375rem;
   }
 
   .burger-navbar {
-    padding-top: 166px;
+    padding-top: 10.375rem;
   }
 
   .content {
     justify-content: center;
   }
 
-  .content h1 {
-    font-size: 4.5em;
-  }
-
   .content p {
-    font-size: 1.5em;
-    margin: 50px 0 150px;
+    margin: 3.125rem 0 9.375rem;
   }
 
   /* Section "Ми робимо"*/
   #we-do::before {
-    width: 345px;
-    height: 345px;
-    top: -184px;
-    left: 16px;
-    transform: rotate(0deg);
+    width: 21.5625rem;
+    height: 21.5625rem;
+    top: -11.5rem;
+    left: 1rem;
+    transform: rotate(0);
   }
 
   #we-do h2 {
-    margin: 100px 0 100px;
+    margin: 6.25rem 0 6.25rem;
   }
 
   #we-do > div {
@@ -875,10 +862,10 @@ p.copyrights {
   }
 
   .card {
-    padding: 18px 20px;
-    margin: 20px 0;
-    height: 360px;
-    width: 290px;
+    padding: 1.125rem 1.25rem;
+    margin: 1.25rem 0;
+    height: 22.5rem;
+    width: 18.125rem;
   }
 
   .card a {
@@ -890,38 +877,38 @@ p.copyrights {
   }
 
   #we-do img {
-    height: 250px;
-    width: 250px;
+    height: 15.625rem;
+    width: 15.625rem;
   }
 
   .card span {
-    font-size: 1.125em;
+    font-size: 1.125rem;
   }
 
   /* Section "Наші цінності"*/
   #about {
-    padding-top: 138px;
+    padding-top: 8.625rem;
   }
 
   #about::before {
-    width: 300px;
-    height: 300px;
-    top: 8px;
-    right: 42px;
+    width: 18.75rem;
+    height: 18.75rem;
+    top: 0.5rem;
+    right: 2.625rem;
     transform: rotate(-233deg);
   }
 
   #about article {
-    margin: 90px auto;
+    margin: 5.625rem auto;
   }
 
   #about .btn {
-    margin-bottom: 90px;
+    margin-bottom: 5.625rem;
   }
 
   /* Section "Як це працює"*/
   #how-works {
-    padding-top: 200px;
+    padding-top: 12.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -930,15 +917,15 @@ p.copyrights {
   #how-works::before {
     top: 0;
     left: auto;
-    right: 80px;
+    right: 5rem;
     transform: rotate(47deg);
   }
 
   #how-works::after {
-    width: 300px;
-    height: 300px;
-    bottom: -250px;
-    left: 15px;
+    width: 18.75rem;
+    height: 18.75rem;
+    bottom: -15.625rem;
+    left: 0.9375rem;
     transform: rotate(0deg);
   }
 
@@ -947,114 +934,114 @@ p.copyrights {
   }
 
   #how-works .btn {
-    margin: 100px auto 0;
+    margin: 6.25rem auto 0;
   }
 
   .steps {
-    height: 260px;
-    margin: 40px auto;
+    height: 16.25rem;
+    margin: 2.5rem auto;
   }
 
   .steps p {
-    padding: 0 24px;
+    padding: 0 1.5rem;
   }
 
   /* Section "Галерея робіт"*/
   #gallery {
-    padding-top: 200px;
+    padding-top: 12.5rem;
   }
 
   .gallery-nav {
-    margin: 80px auto;
+    margin: 5rem auto;
   }
 
   /* Section "Про нас пишуть"*/
   #testimonials {
-    padding-top: 200px;
+    padding-top: 12.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
   #testimonials::after {
-    bottom: -217px;
-    left: 0px;
+    bottom: -13.5625rem;
+    left: 0;
   }
 
   #testimonials h2 {
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
   }
 
   #testimonials .card {
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 403px;
-    height: 503px;
-    padding: 40px;
+    width: 25.1875rem;
+    height: 31.4375rem;
+    padding: 2.5rem;
   }
 
   #testimonials .card.card-one::before {
-    top: 24px;
-    left: 240px;
+    top: 1.5rem;
+    left: 15rem;
   }
 
   #testimonials .card.card-two::before {
-    top: 20px;
-    left: 115px;
+    top: 1.25rem;
+    left: 7.1875rem;
   }
 
   #testimonials .card.card-three::before {
-    top: 20px;
-    right: 20px;
+    top: 1.25rem;
+    right: 1.25rem;
   }
 
   #testimonials .card p {
     width: 100%;
-    font-size: 1.125em;
+    font-size: 1rem;
   }
 
   /* Section "Форма зворотного зв'язку"*/
   #order-form {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
   }
 
   #order-form::after {
-    top: 790px;
-    right: 5px;
+    top: 49.375rem;
+    right: 0.3125rem;
     left: auto;
   }
 
   #order-form div {
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
 
   #order-form p {
-    margin: 0 0 40px;
+    margin: 0 0 2.5rem;
   }
 
   input,
   textarea {
-    font-size: 1.125em;
+    font-size: 1.125rem;
   }
 
   input[type="submit"] {
-    border-radius: 34px;
-    height: 68px;
-    width: 280px;
+    border-radius: 2.125rem;
+    height: 4.25rem;
+    width: 17.5rem;
   }
 
   /* Footer */
   .phones {
-    padding: 40px 0;
+    padding: 2.5rem 0;
   }
 
   address {
-    height: 120px;
+    height: 7.5rem;
   }
 
   .social-icons {
-    width: 200px;
+    width: 12.5rem;
   }
 
   .social-icons a {
@@ -1062,14 +1049,14 @@ p.copyrights {
   }
 
   .social-icons img {
-    height: 40px;
-    width: 40px;
+    height: 2.5rem;
+    width: 2.5rem;
   }
 
   p.copyrights {
-    font-size: 0.75em;
-    padding: 20px;
-    margin-top: 40px;
+    font-size: 0.75rem;
+    padding: 1.25rem;
+    margin-top: 2.5rem;
   }
 }
 
@@ -1077,13 +1064,9 @@ p.copyrights {
   .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    max-width: 1400px;
+    max-width: 87.5rem;
     margin: 0 auto;
-    padding: 0 40px;
-  }
-
-  .nav-wrapper a {
-    font-size: 1em;
+    padding: 0 2.5rem;
   }
 
   .nav-wrapper nav {
@@ -1102,13 +1085,13 @@ p.copyrights {
 
   .navbar.scrolled {
     background-color: transparent;
-    padding-top: 40px;
+    padding-top: 2.5rem;
   }
 
   .burger-navbar {
     background-color: transparent;
     height: 100%;
-    padding-top: 40px;
+    padding-top: 2.5rem;
     transform: none;
     display: flex;
     align-items: center;
@@ -1133,17 +1116,17 @@ p.copyrights {
   }
 
   .tell::before {
-    top: -8px;
+    top: -0.5rem;
   }
 
   .content {
     padding-top: 0;
-    height: calc(100vh - 166px);
+    height: calc(100vh - 10.375rem);
   }
 
   #about {
-    max-width: 1400px;
-    padding: 0 40px;
+    max-width: 87.5rem;
+    padding: 0 2.5rem;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -1151,8 +1134,8 @@ p.copyrights {
   }
 
   #about h2 {
-    margin-bottom: 90px;
-    padding-top: 100px;
+    margin-bottom: 5.625rem;
+    padding-top: 6.25rem;
   }
 
   #about .wrapper {
@@ -1163,13 +1146,13 @@ p.copyrights {
   #about .about {
     width: 50%;
     order: 2;
-    padding: 0 20px;
+    padding: 0 1.25rem;
   }
 
   #about .img {
     order: 1;
     margin: 0 auto;
-    padding-top: 16px;
+    padding-top: 1rem;
   }
 
   #about article {
@@ -1177,21 +1160,21 @@ p.copyrights {
   }
 
   #about .btn {
-    margin: 45px auto;
+    margin: 2.8125rem auto;
   }
 
   #how-works::before {
-    right: calc(50% - 120px);
+    right: calc(50% - 7.5rem);
   }
 
   .gallery-nav a {
-    font-size: 1.125em;
+    font-size: 1rem;
   }
 
   #testimonials::after {
     left: auto;
-    right: 200px;
-    width: 210px;
+    right: 12.5rem;
+    width: 13.125rem;
   }
 
   #order-form {
@@ -1214,14 +1197,14 @@ p.copyrights {
 
   #order-form img {
     display: block;
-    width: 435px;
-    height: 420px;
+    width: 27.1875rem;
+    height: 26.25rem;
     margin: 0 auto;
   }
 
   #feedback-form {
-    margin-top: 50px;
-    height: 500px;
+    margin-top: 3.125rem;
+    height: 31.25rem;
     width: 50%;
   }
 
@@ -1246,16 +1229,16 @@ p.copyrights {
 
 @media screen and (min-width: 950px) and (max-width: 1300px) {
   .logo {
-    width: 73px;
+    width: 4.5625rem;
   }
 
   #we-do > div {
     display: grid;
-    grid-template-columns: repeat(2, 290px);
-    grid-column-gap: 80px;
-    grid-row-gap: 20px;
+    grid-template-columns: repeat(2, 18.125rem);
+    grid-column-gap: 5rem;
+    grid-row-gap: 1.25rem;
     justify-items: center;
-    width: 869px;
+    width: 54.3125rem;
     margin: 0 auto;
   }
 
@@ -1264,29 +1247,23 @@ p.copyrights {
   }
 
   #about .img {
-    width: 360px;
+    width: 22.5rem;
   }
   #about .img::after {
-    height: 65px;
-    width: 68px;
-    left: 1px;
+    height: 4.0625rem;
+    width: 4.25rem;
+    left: 0.0625rem;
     bottom: 2%;
-  }
-}
-
-@media screen and (min-width: 1301px) {
-  .nav-wrapper a {
-    font-size: 1.25em;
   }
 }
 
 /* media for IPhones X-12 */
 @media screen and (min-width: 812px) and (max-width: 926px) and (min-height: 375px) and (max-height: 428px) {
   #home {
-    min-height: 800px;
+    min-height: 50rem;
   }
 
   .content {
-    min-height: 800px;
+    min-height: 50rem;
   }
 }
